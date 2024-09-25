@@ -1,0 +1,101 @@
+body {
+    background-color: #edf5e1;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#top-films a {
+    color: black;
+    text-decoration: none;
+}
+
+.film {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+
+#top-films ul {
+    list-style-type: none;
+}
+
+#top-films ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#The-Green-Mile p {
+    text-align: center;
+}
+
+#The-Gentlemen p {
+    text-align: justify;
+}
+
+#The-Wolf-of-Wall-Street p {
+    text-align: left;
+}
+
+@font-face {
+    font-family: 'GreenMileFont';
+    src: url('fonts/Rubik/Rubik-Italic-VariableFont_wght.ttf');
+}
+
+#The-Green-Mile {
+    font-family: 'GreenMileFont', serif;
+}
+
+@font-face {
+    font-family: 'GentlemenFont';
+    src: url('fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
+#The-Gentlemen {
+    font-family: 'GentlemenFont', serif;
+}
+
+@font-face {
+    font-family: 'WolfFont';
+    src: url('fonts/Sofadi_One/SofadiOne-Regular.ttf');
+}
+
+#The-Wolf-of-Wall-Street {
+    font-family: 'WolfFont', serif;
+}
+
+p b {
+    font-weight: bold;
+}
+
+p strong {
+    font-weight: 700;
+}
+
+
+
