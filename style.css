@@ -9,14 +9,14 @@ body {
 }
 
 .lab_list {
-    display: inline-flex; /* Размер контейнера подстраивается под контент */
-    flex-direction: column; /* Вертикальное расположение ссылок */
+    display: inline-flex;
+    flex-direction: column;
     align-items: center;
-    border: 2px solid #ccc; /* Граница вокруг списка */
-    border-radius: 10px; /* Скругленные углы */
-    background-color: #fff; /* Фон контейнера */
-    padding: 20px 40px; /* Внутренние отступы */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень для блока */
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .lab_list a:hover {
